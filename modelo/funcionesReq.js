@@ -47,14 +47,20 @@ function agregaform(datos){
 	
 }
 
+
 function actualizaDatos(){
 
 	detalle=$('#detalleU').val();
 		idRequerimiento=$('#idRequerimiento').val();
+		correoElectronico=$('#correoElectronico').val();
+		codigo=$('#codigo').val();
+		usuarioSolicitante=$('#usuarioSolicitante').val();
 
 	cadena= "detalle=" + detalle +
 	"&idRequerimiento=" + idRequerimiento +
-	"&correoElectronico=" + correoElectronico;
+	"&correoElectronico=" + correoElectronico+
+	"&codigo=" + codigo +
+	"&usuarioSolicitante=" + usuarioSolicitante;
 
 	$.ajax({
 		type:"POST",

@@ -166,7 +166,7 @@ if (isset($_SESSION['user_id'])) {
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title text-center">Actualizar Proveedores</h5>
+        <h5 class="modal-title text-center">Actualizar Requerimientos</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         </button>
       </div>
@@ -180,7 +180,6 @@ if (isset($_SESSION['user_id'])) {
             <input type="hidden" id="codigoU" class="form form-control" required="">
             <input type="hidden" id="correoElectronicoU" class="form form-control" required="">
             <input type="hidden" id="usuarioSolicitanteU" class="form form-control" required="">
-            <input type="hidden" id="correoElectronicoU" class="form form-control" required="">
           </div>
         </div>
       </form>
